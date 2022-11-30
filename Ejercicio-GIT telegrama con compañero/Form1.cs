@@ -28,7 +28,7 @@ namespace Ejercicio_GIT_telegrama_con_compañero
 
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
-            //creando conflicto3
+            //creando conflicto
             // telegrama urgente? hecho el cambio de cbUrgente a rdUrgente
             if (rdUrgente.Checked)
                 tipoTelegrama = 'u';
@@ -64,7 +64,7 @@ namespace Ejercicio_GIT_telegrama_con_compañero
                     coste = 5 + 0.75 * (numPalabras - 10);
             else
                 coste = 0;
-            //Mostramos el precio
+            //Mostramos el precio1
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
