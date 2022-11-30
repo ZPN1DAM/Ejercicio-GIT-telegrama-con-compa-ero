@@ -28,7 +28,7 @@ namespace Ejercicio_GIT_telegrama_con_compañero
 
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
-            //creando conflicto2
+            //creando conflicto3
             // telegrama urgente? hecho el cambio de cbUrgente a rdUrgente
             if (rdUrgente.Checked)
                 tipoTelegrama = 'u';
