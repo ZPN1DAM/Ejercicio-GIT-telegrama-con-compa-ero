@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio-GIT telegrama con compañero", "Ejercicio-GIT telegrama con compañero\Ejercicio-GIT telegrama con compañero.csproj", "{57DE16DF-83C8-40E5-B808-9E767E081372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57DE16DF-83C8-40E5-B808-9E767E081372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DE16DF-83C8-40E5-B808-9E767E081372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DE16DF-83C8-40E5-B808-9E767E081372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DE16DF-83C8-40E5-B808-9E767E081372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E7C91DB-6B96-4D74-88A1-E71B8D003AB9}
+	EndGlobalSection
+EndGlobal
