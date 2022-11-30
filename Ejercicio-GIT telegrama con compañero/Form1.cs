@@ -29,9 +29,12 @@ namespace Ejercicio_GIT_telegrama_con_compañero
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
 
-            // telegrama urgente?
-            if (cbUrgente.Checked)
+            // telegrama urgente? hecho el cambio de cbUrgente a rdUrgente
+            if (rdUrgente.Checked)
                 tipoTelegrama = 'u';
+            // para poder seleccionar uno u otro añado rdOrdinario tamb
+            else if (rdOrdinario.Checked)
+                tipoTelegrama = 'o';
 
             //Obtengo el número de palabras que forma el telegrama
             char[] texto = textoTelegrama.ToCharArray();
@@ -64,5 +67,9 @@ namespace Ejercicio_GIT_telegrama_con_compañero
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
+        private void rdOrdinario_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
