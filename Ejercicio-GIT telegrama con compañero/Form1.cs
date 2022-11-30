@@ -61,6 +61,7 @@ namespace Ejercicio_GIT_telegrama_con_compañero
                     coste = 5 + 0.75 * (numPalabras - 10);
             else
                 coste = 0;
+            //Mostramos el precio
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
