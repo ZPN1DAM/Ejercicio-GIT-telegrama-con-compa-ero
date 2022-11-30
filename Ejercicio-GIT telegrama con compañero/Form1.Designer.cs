@@ -38,17 +38,19 @@
             // 
             // txtTelegrama
             // 
-            this.txtTelegrama.Location = new System.Drawing.Point(46, 69);
+            this.txtTelegrama.Location = new System.Drawing.Point(34, 56);
+            this.txtTelegrama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTelegrama.Multiline = true;
             this.txtTelegrama.Name = "txtTelegrama";
-            this.txtTelegrama.Size = new System.Drawing.Size(414, 235);
+            this.txtTelegrama.Size = new System.Drawing.Size(312, 192);
             this.txtTelegrama.TabIndex = 0;
             // 
             // botton1
             // 
-            this.botton1.Location = new System.Drawing.Point(306, 355);
+            this.botton1.Location = new System.Drawing.Point(230, 288);
+            this.botton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.botton1.Name = "botton1";
-            this.botton1.Size = new System.Drawing.Size(125, 58);
+            this.botton1.Size = new System.Drawing.Size(94, 47);
             this.botton1.TabIndex = 1;
             this.botton1.Text = "Calcular";
             this.botton1.UseVisualStyleBackColor = true;
@@ -57,49 +59,54 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 39);
+            this.label1.Location = new System.Drawing.Point(32, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 16);
+            this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Texto";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(118, 450);
+            this.txtPrecio.Location = new System.Drawing.Point(88, 366);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(76, 20);
             this.txtPrecio.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 456);
+            this.label2.Location = new System.Drawing.Point(43, 370);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
+            this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Coste";
             // 
             // cbUrgente
             // 
             this.cbUrgente.AutoSize = true;
-            this.cbUrgente.Location = new System.Drawing.Point(60, 393);
+            this.cbUrgente.Location = new System.Drawing.Point(45, 319);
+            this.cbUrgente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbUrgente.Name = "cbUrgente";
-            this.cbUrgente.Size = new System.Drawing.Size(84, 20);
+            this.cbUrgente.Size = new System.Drawing.Size(70, 17);
             this.cbUrgente.TabIndex = 5;
             this.cbUrgente.Text = "Urgente?";
             this.cbUrgente.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 488);
+            this.ClientSize = new System.Drawing.Size(382, 396);
             this.Controls.Add(this.cbUrgente);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.botton1);
             this.Controls.Add(this.txtTelegrama);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "PracticaEnt ZPN y VMS";
             this.ResumeLayout(false);

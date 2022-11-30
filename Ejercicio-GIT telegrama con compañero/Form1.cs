@@ -26,7 +26,7 @@ namespace Ejercicio_GIT_telegrama_con_compañero
             double coste;
             int i = 0;
 
-            //Leo el telegrama
+            //Leo el telegram
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
